@@ -1,0 +1,146 @@
+body {
+    background-image: url('https://clickup.com/blog/wp-content/uploads/2019/01/to-do-list-apps-1400x1050.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-width: 450px;
+}
+
+.app-container {
+    background-color: rgba(34, 34, 15, 0.90);
+    border: ridge;
+    padding: 0px 40px;
+    text-align: center;
+    top: 5%;
+    left: 37%;
+    right: 37%;
+    position: absolute;
+    text-align: center;
+    border-color: rgba(255, 235, 0, 0.28);
+    min-width: 330px;
+
+
+}
+
+@media (max-width: 1100px) {
+    .app-container {
+        left: 30%;
+        right: 30%;
+    }
+
+}
+
+@media (max-width: 920px) {
+    .app-container {
+        left: 27%;
+        right: 27%;
+    }
+
+}
+
+@media (max-width: 790px) {
+    .app-container {
+        left: 10%;
+        right: 35%;
+    }
+
+}
+
+@media (max-width: 640px) {
+    .hamburger {
+        display: none;
+    }
+
+    .app-container {
+        min-width: 300px;
+        left: auto;
+        right: auto;
+        margin: 0px 50px
+    }
+
+}
+
+.tasks-container {
+    overflow: hidden;
+}
+
+.tekst {
+    color: rgb(30, 135, 30);
+    font-style: oblique;
+    font-size: x-large;
+}
+
+.baton {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+
+}
+
+.single-task {
+    list-style-type: none;
+}
+
+.bbutton {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 7px;
+    width: 250px;
+    cursor: pointer;
+    margin: 5px;
+    transform: translate(-9%);
+    transition: 0.3s;
+    cursor: no-drop;
+    overflow: hidden;
+}
+
+.Zadanko {
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}
+
+.hamburger {
+    font-size: 90px;
+    position: fixed;
+    right: 50px;
+    top: 30px;
+
+}
+
+.hamburger:hover {
+    color: red;
+    cursor: pointer;
+
+}
+
+.bbutton:hover {
+    padding: 15px;
+    background-color: #060706;
+
+}
+
+.bbutton:focus {
+    background-color: #ff0000;
+    text-decoration: line-through;
+
+}
+
+.Zadanko:hover {
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+}
